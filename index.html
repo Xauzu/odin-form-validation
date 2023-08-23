@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <form action="" id="main">
         <fieldset>
             <legend>Signup Form</legend>
-            <label for="email">Email</label><input type="email" id="email">
-            <label for="country">Country</label><input type="text" id="country">
-            <label for="zipcode">Zip Code</label><input type="number" id="zipcode">
-            <label for="password">Password</label><input type="password" id="password">
-            <label for="passwordc">Retype Password</label><input type="password" id="passwordc">
+            <label for="email">Email</label><input type="email" id="email" required>
+            <label for="country">Country</label><input type="text" id="country" required>
+            <label for="zipcode">Zip Code</label><input type="number" id="zipcode" required>
+            <label for="password">Password</label><input type="password" id="password" required>
+            <label for="passwordc">Retype Password</label><input type="password" id="passwordc" required>
             <input type="submit" id="submitButton">
         </fieldset>
     </form>

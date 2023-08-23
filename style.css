@@ -43,3 +43,11 @@ input[type="submit"] {
     font-size: x-large;
     font-weight: bolder;
 }
+
+input {
+    border: 2px solid black;
+}
+
+input:invalid[data-focus='1'] {
+    border: 2px solid red;
+}
